@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatUniverse</title>
+
+    <link rel="shortcut icon" href="img/ChUn.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/main.css">
+
+</head>
+<body>
+    <header>
+        <img class="logo" src="./img/ChUn.png" alt="Logo">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="quienesSomos.html">Quienes Somos</a></li>
+                <div class="botones-nav">
+                    <li><a href="registro.html" class="button-link"><i class="fa-solid fa-login"></i>Registrarse</a></li>
+                    <li><a href="login.html" class="button-link"><i class="fa-solid fa-heart"></i>Iniciar Sesion</a></li>    
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="bienvenida">
+            <div class="text-bienv">
+                <h1>Chat Universe</h1>
+                <h2><font style="color:#666f88">¿Qué es ChatUniverse?</font></h2>
+                <p>
+                    ChatUniverse es más que una plataforma de chat en línea; 
+                    es un espacio dinámico donde la comunicación se convierte en una experiencia única. 
+                    Nuestra plataforma ofrece una amplia gama de características para que puedas conectarte 
+                    con personas de todo el mundo.
+                    
+                    </p>
+                <button class="btn"><a href="registro.html" class="btn">¡Registrate!</a></button>
+            </div>
+        </section>
+        <section class="equipo">
+            <div class="headerOne">
+                <div class="headerOneText">
+                    <h3 class="white">Nuestro Equipo</h3>
+                    <p class="white">Talento salteños.</p>
+                    <p class="white" style="margin-bottom: 80px;">Conoce a nuestro equipo de trabajo.</p>
+                </div>
+            </div>
+            <div class="estadisticas">
+                <div class="wrapper">
+                    <div class="element">
+                        <div class="imgContainer">
+                            <div class="imagen-circular">
+                                <img src="img/perfil.jpg" alt="">
+                            </div>
+                        </div>
+                        <h5>Humberto Caregua</h5>
+                        <p>Backend developer</p>
+                    </div>
+                    <div class="element">
+                        <div class="imgContainer">
+                            <div class="imagen-circular">
+                                <img src="img/FotoPerfilFatima.jpeg" alt="">
+                            </div>
+                        </div>
+                        <h5>Fatima Sumbaine</h5>
+                        <p>Full Stack Developer</p>
+                    </div>
+                    <div class="element">
+                        <div class="imgContainer">
+                            <div class="imagen-circular">
+                                <img src="img/perfil.jpg" alt="">
+                            </div>
+                        </div>
+                        <h5>Eliana   Baracat</h5>
+                        <p>Frontend Developer</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./scripts/header.js"></script>
+</body>
+</html>

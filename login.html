@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatUniverse</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/ChUn.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./img/ChUn.png" alt="Logo">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="quienesSomos.html">Quienes Somos</a></li>
+                <div class="botones-nav">
+                    <li><a href="registro.html" class="button-link"><i class="fa-solid fa-login"></i>Registrarse</a></li> 
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper-inicio">
+        <div class="form-box login">
+            <h2>Iniciar Sesión</h2>
+            <form action="/loging">
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Recordar Sesión </label>
+                    <a href="recuperar.html">¿Has olvidado la contraseña?</a>
+                </div>
+                <button type="submit" class="btninicio"><a href="unite.html" class="btninicio">¡Iniciar Sesión!</a></button>
+                <div class="login-register">
+                    <p> ¿No tienes una cuenta? <a 
+                        href="registro.html" 
+                        class="register-link">Registrate</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./scripts/loging.js"></script>
+</body>
+</html>

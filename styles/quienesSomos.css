@@ -1,0 +1,58 @@
+@import url('general.css');
+@import url('header.css');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 175vh;
+    background: url(/img/fondo1.jpg) no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10;
+}
+
+section {
+    text-align: justify;
+    padding: 20px 7%;
+}
+
+/*Bienvenida*/
+section.bienvenida{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0.5550595238095238) 82%), url("./img/fondo1.jpg") ;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Radley', serif;
+    font-size: var(--fontT);
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: -20px;
+}
+
+.text-bienv p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: var(--fontText);
+    color: var(--white);
+    text-align: justify;
+}
+
+.white {
+    color: white;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5); /* Sombra (desplazamiento-x desplazamiento-y difuminado color) */
+}
